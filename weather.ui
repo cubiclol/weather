@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Погода</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #3a3a47;</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>351</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	color:#f2b824 ;
+	background-color: #1d1c21;
+	border: none;
+	font: 12pt &quot;Comic Sans MS&quot;;
+}
+
+QPushButton:hover {
+	color: #f2c44e;
+	background-color: #3a3c42;
+}
+
+QPushButton:pressed {
+	color: #eb7b13;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Получить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>381</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #ccc;
+font: 11pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Погода</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>351</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #e0bd3f;
+background-color: #1d1c21;
+border: none;
+font: 11pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

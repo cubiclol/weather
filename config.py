@@ -1,0 +1,1 @@
+TOKEN ='' #get your API token from OWM site
